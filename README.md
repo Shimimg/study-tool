@@ -50,6 +50,7 @@ Talk to the AI, ask for it to make you some notes, or ask it some questions abou
 Click the **Generate** button for flash cards.
 
 ### Please note: The conversations and flash card creation will take moderate time to process as I am using a free model from Hugging Face
+<img width="1919" height="937" alt="image" src="https://github.com/user-attachments/assets/5d0146a1-3c7c-429c-84a1-ae08f826fc20" />
 
 ## Licenses
 This project uses the **DeepSeek‑R1** model from [Hugging Face](https://huggingface.co/deepseek-ai/DeepSeek-R1), which is licensed under the **MIT License**.
