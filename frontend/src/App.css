@@ -1,3 +1,53 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@layer utilities {
+  .custom-scroll {
+    scrollbar-width: 10%;
+    scrollbar-color: #342d40 #212121;
+  }
+}
+
+.nunito-sans {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.card-button {
+  width: 3rem;
+  height: 10rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 1.6rem;
+  border-radius: 1.4rem;
+  display: flex;
+  align-items: center;
+  transition-duration: 100ms;
+  background-color: #634990;
+  transition-duration: 150ms;
+}
+
+.card-button:hover {
+  box-shadow: 0 0 0 1.5px #8b5cf6;
+  transition-duration: 150ms;
+}
+
+.card {
+  width: 22rem;
+  height: 22rem;
+  border-radius: 3rem;
+  text-align: center;
+  font-size: 22px;
+  transition-duration: 150ms;
+}
+
+.card:hover {
+  box-shadow: 0 0 15px #8450de;
+  transition-duration: 200ms;
+}
